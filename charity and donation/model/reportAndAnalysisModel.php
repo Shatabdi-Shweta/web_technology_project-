@@ -12,8 +12,21 @@ function show_donor_details(){
         array_push($donors, $donor);
     }
 
+    
     return $donors;
 }
+
+function deleteDonor($SL){
+    $conn = dbConnection();
+    $sql = "DELETE FROM donor_details WHERE serial={$SL}";
+
+    if(mysqli_query($conn, $sql)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 
 function show_campaign_list(){
     $conn = dbConnection();
@@ -25,4 +38,5 @@ function show_campaign_list(){
     }
     return $campaigns;
 }
+
 ?>

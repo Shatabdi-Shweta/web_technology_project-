@@ -21,8 +21,9 @@
         <img src="<?=$resource[$i]['thumbnail']?>" alt="thumbnail" width="300" height="300">
         <h2><a href= "viewResource.php?id=<?=$resource[$i]['resource_id']?>"><?=$resource[$i]['resource_title']?></a></h2>
         <hr>
-        <br><br>
+        <br>
         
     <?php } ?>
+    <a href="home.php"><button>Return Home</button></a>
 </body>
 </html>

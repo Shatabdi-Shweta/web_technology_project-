@@ -37,4 +37,17 @@
         }
     }
 
+    // function getAllUser(){
+    //     $conn = dbConnection();
+    //     $sql = "select * from users";
+    //     $result = mysqli_query($conn, $sql);
+    //     $users= [];
+    //     while($row = mysqli_fetch_assoc($result)){
+    //         array_push($users, $row);
+    //     }
+    
+    //     return $users;
+    // }
+    
+
 ?>

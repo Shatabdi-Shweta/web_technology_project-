@@ -33,6 +33,7 @@
             </tr>
             <?php
         }?>
+        <a href="home.php"><button>Return Home</button></a>
     </table>
 </body>
 </html>
